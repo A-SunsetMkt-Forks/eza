@@ -162,6 +162,9 @@ Sort fields starting with a capital letter will sort uppercase before lowercase:
 `--group-directories-first`
 : List directories before other files.
 
+`--group-directories-last`
+: List directories after other files.
+
 `-D`, `--only-dirs`
 : List only directories, not files.
 
@@ -364,6 +367,9 @@ EXIT STATUSES
 
 3
 : If there was a problem with the command-line arguments.
+
+13
+: If permission is denied to access a path.
 
 
 AUTHOR
